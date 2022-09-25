@@ -1,0 +1,1065 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+
+@font-face {
+    font-family: "Suprema";
+    src: url("fonts/suprema/Artegra\ -\ Suprema\ Thin.ttf") format("truetype");
+    font-weight: 400;
+  
+  
+}
+
+
+@font-face {
+    font-family: "Suprema";
+    src : url("fonts/suprema/Suprema\ SemiBold.ttf") format("truetype");
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr ;
+    grid-template-rows: 0fr 0.8fr 1fr;
+    grid-gap: 2vw;
+    grid-template-areas: 
+    "logo title profile"
+    "menu cards goals"
+    "sign history statistics-transaction";
+}
+
+/* .item{
+  border: 1px solid rgba(0, 0, 0, 0.8);
+} */
+
+
+.logo {
+    grid-area: logo;
+}
+
+
+
+.profile{
+    grid-area: profile;
+}
+
+
+/* TITLE */
+
+.title{
+    grid-area: title;
+}
+
+
+.title_main{
+    font-family: 'Suprema';
+font-style: normal;
+font-weight: 600;
+font-size: 35.3726px;
+margin: 0;
+}
+
+.title_text{
+    font-family: 'Suprema';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.0564px;
+    color: #AEAEAE;
+}
+
+
+/* MENU */
+
+.menu {
+    grid-area: menu;
+    /* display: flex; */
+}
+
+.menu__list li{
+    list-style: none;
+}
+
+
+
+.menu__photo{
+    display: flex;
+
+}
+
+.menu_line{
+    background: #F0F7FF;
+border-radius: 4px;
+}
+
+.menu__photo img{
+    padding-right: 1em;
+}
+
+.menu__photo p{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+color: #C7C7C7;
+line-height: 17px;
+}
+
+
+.menu_overview{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+    color: #197BBD;
+}
+
+
+
+
+
+/* SIGN */
+
+.sign{
+    margin-top: 6.7em;
+}
+.sign__info{
+    text-align: center;
+}
+
+
+.sign_photo{
+    margin: 0 2em 0 2.4em ;
+
+    text-align: center;
+}
+
+.sign_text{
+    margin: 0 2em 2em 2em ;
+
+    font-family: 'Suprema';
+font-style: normal;
+font-weight: 400;
+font-size: 10.7511px;
+}
+
+.sign_button{
+    border:0;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    width: 13em;
+    height: 3.5em;
+    background: #FFC145;
+    border-radius:18px;
+
+}
+
+
+/* CARDS */
+.cards{
+    grid-area: cards;
+    display: flex;
+    /* width: 596.66px;
+height: 363.12px; */
+background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 100%);
+
+
+box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+border-radius: 28px;
+
+}
+
+.cards__limit h1{
+    font-family: 'Suprema';
+font-style: normal;
+font-weight: 600;
+padding-left: 1.2em;
+}
+
+
+
+.cards__id{
+    display: flex;
+}
+
+
+.cards_line{
+    border:1px solid  #E8E8E8;
+    height: 12.6em;
+    margin-left: 1em;
+    margin-top: 5em;
+}
+
+
+
+
+
+.cards__price{
+    flex:1;
+    padding: 0 2em 0 5em;
+    text-align: end;
+    
+}
+
+.cards__week-limit{
+    display:flex;
+    padding-left: 3.1em;
+}
+
+.cards_word{
+    font-family: 'Suprema';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #AEAEAE;
+}
+
+.cards_balance{
+    margin-left: 6em;
+    font-family: 'Lato',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+}
+
+.cards_left{
+    padding-left: 0.7em;
+
+}
+
+
+
+.cards_level-1{
+    border:5px solid #F1F1F1;
+    border-radius: 13px;
+    width: 19.4em;
+    margin: 0;
+}
+
+.cards_level-2{
+    position: absolute;
+  
+    border: 5px solid #197BBD;
+    border-radius: 13px;
+    width: 3em;
+    margin: 0;
+}
+
+.cards__levels{
+    display: flex;
+    padding-left: 3.1em;
+}
+
+
+
+
+.cards_current-a{
+    font-family: 'Lato',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+color: #197BBD;
+margin-bottom: 0;
+
+}
+.cards_current-a span{
+    padding-right: 0.5em;
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #197BBD;
+}
+
+.cards_current-b{
+    font-family: 'Suprema',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #AEAEAE;
+    margin: 0;
+}
+
+
+
+
+.cards_income-a{
+    font-family: 'Lato',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+color: #439A86;
+margin-bottom: 0;
+}
+.cards_income-a span{
+    padding-right: 0.5em;
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #439A86;
+}
+
+
+
+.cards_income-b{
+    font-family: 'Suprema',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #AEAEAE;
+    margin: 0;
+}
+
+.cards_outcome-a{
+    font-family: 'Lato',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+color: #BB4430;
+margin-bottom: 0;
+}
+
+.cards_outcome-a span{
+    padding-right: 0.5em;
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    color: #BB4430;
+}
+
+.cards_outcome-b{
+    font-family: 'Suprema',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #AEAEAE;
+    margin: 0;
+}
+
+.cards_buttons{
+    display: flex;
+    padding-left: 5em;
+    padding-top: 6em;
+}
+
+.cards_button-1{
+    width: 1.5em;
+    border:12px solid  #EBEBEB;;
+    border-radius:12px;
+  
+    margin: 0;
+}
+
+.cards_button-2{
+    position: absolute;
+    margin: 0;
+    width: 0;
+    border:12px solid #CDCDCD;
+    border-radius:12px;
+}
+
+
+
+.cards_active{
+
+font-family: 'Suprema';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #AEAEAE;
+    /* padding-top: 7em; */
+}
+
+
+/* GOALS */
+
+.goals{
+    grid-area: goals;
+    height: 17em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 0.3fr 1fr;
+    grid-gap:1em;
+    grid-template-areas: 
+    "title title title title"
+    "holiday renovation xbox right "
+    "transaction transaction transaction transaction "
+}
+
+.goals__title{
+    grid-area: title;
+    display: flex;
+}
+
+.goals__title h1{
+    font-family: 'Suprema';
+font-style: normal;
+font-weight: 600;
+font-size: 20.1118px;
+}
+
+
+
+.goals_right{
+    padding-top: 5em;
+    grid-area:right;
+}
+
+
+.goals__holiday{
+    grid-area: holiday;
+    padding: 1.2em;
+    width: 125px;
+    height: 8em;
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+border-radius: 28px;
+/* width: 157.93px;
+height: 168.74px; */
+
+}
+
+.goals__renovation{
+    grid-area: renovation;
+    padding: 1.2em;
+    width: 125px;
+    height: 8em;
+
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 28px;
+
+}
+
+.goals__xbox{
+    grid-area: xbox;
+    padding: 1.2em;
+    width: 125px;
+    height: 8em;
+
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 28px;
+
+}
+
+
+.goals_price-1{
+    margin: 0;
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+color: #696969;
+}
+
+.goals_price-2{
+    margin: 0;
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+color: #696969;
+}
+
+
+
+.goals_price-3{
+    margin: 0;
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+color: #696969;
+}
+
+
+.goals_date-1{
+
+    margin: 0;
+    font-family: 'Suprema';
+font-style: normal;
+font-weight: 400;
+color: #AEAEAE;
+}
+
+.goals_date-2{
+    margin: 0;
+    font-family: 'Suprema';
+font-style: normal;
+font-weight: 400;
+color: #AEAEAE;
+}
+
+
+.goals_date-3{
+    margin: 0;
+    font-family: 'Suprema';
+font-style: normal;
+font-weight: 400;
+color: #AEAEAE;
+}
+
+
+.goals_title-1{
+    margin: 0;
+    font-family: 'Suprema';
+font-style: normal;
+font-weight: 400;
+color: #404040;
+}
+
+.goals_title-2{
+    margin: 0;
+
+    font-family: 'Suprema';
+font-style: normal;
+font-weight: 400;
+color: #404040;
+}
+
+
+.goals_title-3{
+    margin: 0;
+
+    font-family: 'Suprema';
+font-style: normal;
+font-weight: 400;
+color: #404040;
+}
+
+
+.goals_icons{
+    padding-top: 1em;
+}
+
+
+
+
+
+.sign {
+    grid-area: sign;
+}
+
+/* HISTORY */
+.history{
+    grid-area: history;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 0.2fr 0.3fr ;
+    grid-template-areas: 
+    " title title"
+    "data data";
+    background: #FFFFFF;
+
+
+box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+border-radius: 19.0044px;
+height: 18em;
+
+
+}
+
+.history__data{
+    grid-area: data;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.history__title{
+    grid-area: title;
+   
+   
+}
+
+.history__title h2{
+    margin-left: 1.7em;
+    font-family: 'Suprema';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20.1118px;
+}
+
+
+.history__reciever{
+    grid-area: reciever;
+
+}
+
+.history__reciever h3{
+    font-family: 'Suprema';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color: #AEAEAE;
+}
+
+.history__reciever li{
+    list-style: none;
+    font-family: 'Suprema';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+
+
+color: #404040;
+  
+}
+
+.history__reciever ul{
+    margin: 0;
+    padding: 0;
+
+}
+.history__type{
+    grid-area: type;
+
+
+}
+.history__type li{
+    list-style: none;
+    font-family: 'Suprema';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+
+
+color: #C7C7C7;
+  
+}
+
+
+
+.history__type ul{
+    margin: 0;
+    padding: 0;
+
+}
+
+.history__type h3{
+    font-family: 'Suprema';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color: #AEAEAE;
+}
+.history__date{
+    grid-area: date;
+
+}
+.history__date li{
+    list-style: none;
+    font-family: 'Suprema';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    
+    
+    color: #C7C7C7;
+  
+}
+
+.history__date ul{
+    margin: 0;
+    padding: 0;
+
+}
+.history__date h3{
+    font-family: 'Suprema';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color: #AEAEAE;
+
+}
+.history__amount{
+    grid-area: amount;
+    text-align: right;
+
+
+}
+.history__amount li{
+    list-style: none;
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+text-align: right;
+
+color: #404040;
+  
+}
+
+.history__amount ul{
+    margin: 0;
+    padding: 0;
+
+}
+.history__amount h3{
+    font-family: 'Suprema';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color: #AEAEAE;
+text-align: right;
+
+}
+
+/* .history_ground-a{
+    background: #EFEFEF;
+border-radius: 6.00032px;
+
+} */
+
+.history_line{
+    position: relative;
+    border: 0.5px solid #ECECEC;
+    margin: 6px;
+    width: 3em;
+}
+
+
+/* PROFILE */
+.profile__main{
+    display: flex;
+    justify-content:  flex-end;
+}
+
+.profile__text{
+    padding-left: 1em;
+}
+
+.profile_name{
+    font-family: 'Suprema';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+    margin: 0;
+}
+
+.profile_account{
+    font-family: 'Suprema';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color: #AEAEAE;
+    margin: 0;
+}
+
+
+.logo_cloud{
+    position: absolute;
+}
+
+
+.logo_dollar{
+    position: relative;
+    padding-left: 1.5em;
+}
+
+
+
+
+
+/* STATISTICS AND TRANSACTION  */
+
+
+.statistics-transaction{
+    grid-area: statistics-transaction;
+    position:relative;
+    top: -9em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2.65fr 1.64fr;
+    grid-template-areas: 
+    "statistic statistic statistic"
+    "transaction transaction loan";
+}
+
+.statistics-transaction__transaction{
+    grid-area: transaction;
+
+}
+
+.statistics-transaction__statistic{
+    grid-area: statistic;
+}
+
+.statistics-transaction__loan{
+    grid-area: loan;
+}
+
+
+.statistics-transaction__icon-1{
+    display: flex;
+    padding: 1em 0 1em 0;
+}
+
+.statistics-transaction__icon-2{
+    display: flex;
+    padding: 1em 0 1em 0;
+
+
+}
+
+.statistics-transaction__icon-3{
+    display: flex;
+    padding: 1em 0 1em 0;
+
+
+}
+
+.scale-1{
+    height: 0;
+    padding: 5px 1em 0 1em;
+}
+
+.level-1{
+    border:5px solid #F1F1F1;
+    border-radius: 13px;
+    width: 21em;
+    margin: 0;
+}
+
+.level-2{
+    position: absolute;
+  
+    border: 5px solid  #F79042 ;
+    border-radius: 13px;
+    width: 10em;
+    margin: 0;
+}
+
+.levels{
+    display: flex;
+}
+
+.statistics-transaction_title{
+    margin: 0;
+    font-family: 'Suprema';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color: #AEAEAE;
+padding-top: 12px;
+
+}
+
+.statistics-transaction_percent{
+    margin: 0;
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 23px;
+color: #696969;
+
+
+}
+
+
+.scale-2{
+    height: 0;
+    padding: 5px 1em 0 1em;
+}
+
+.scale-2 .level-1{
+    border:5px solid #F1F1F1;
+    border-radius: 13px;
+    width: 21em;
+    margin: 0;
+}
+
+.scale-2 .level-2{
+    position: absolute;
+  
+    border: 5px solid #209D43 ;
+    /* background: linear-gradient(90deg, #209D43 0%, #2BC255 100%); */
+    border-radius: 13px;
+    width: 4em;
+    margin: 0;
+}
+
+.scale-2 .levels{
+    display: flex;
+}
+
+
+.scale-3{
+    height: 0;
+    padding: 5px 1em 0 1em;
+}
+
+.scale-3 .level-1{
+    border:5px solid #F1F1F1;
+    border-radius: 13px;
+    width: 21em;
+    margin: 0;
+}
+
+.scale-3 .level-2{
+    position: absolute;
+  
+    border: 5px solid #70A6E8; ;
+    /* background: linear-gradient(90deg, #209D43 0%, #2BC255 100%); */
+    border-radius: 13px;
+    width: 16em;
+    margin: 0;
+}
+
+.scale-3 .levels{
+    display: flex;
+}
+
+
+.fa-cart-shopping{
+    padding: 1em 0 0 1em;
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+border-radius: 3px;
+background: #FFEADA;
+width: 2em;
+height: 2em;
+color:#F8964C;
+}
+
+
+.fa-truck{
+    padding: 1em 0 0 1em;
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);border-radius: 3px;
+    background: #DDF9E4;
+    width: 2em;
+height: 2em;
+color:#22A447;
+}
+
+
+.fa-plane{
+    padding: 1em 0 0 1em;
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);border-radius: 3px;
+    background: #E4F0FF;
+    width: 2em;
+height: 2em;
+color: #70A6E8;}
+
+
+
+.statistics-transaction_main-title{
+
+    font-family: 'Suprema';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+.statistics-transaction__transaction h1{
+    font-family: 'Suprema';
+font-style: normal;
+font-weight: 600;
+font-size: 20.1118px;
+padding-left: 1em;
+}
+
+.statistics-transaction__transaction{
+    grid-area: transaction;
+background: #FFFFFF;
+
+box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+border-radius: 19.0044px;
+margin-right: 1em;
+}
+
+
+.statistics-transaction__photos{
+    display: flex;
+    padding-bottom: 1em;
+    padding-left: 1em;
+}
+
+.statistics-transaction__photos div{
+    text-align: center;
+    padding-right: 10px;
+
+}
+
+.statistics-transaction__photos div p{
+    font-family: 'Suprema';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+    margin: 0;
+}
+
+.statistics-transaction_adding{
+    margin-top: 12px;
+    margin-bottom:5px;
+}
+
+
+
+.statistics-transaction_button{
+    background: #FFC145;
+border-radius: 13.617px;
+width: 131.59px;
+height: 36.52px;
+border:0;
+}
+
+.input-group-addon {
+    position: absolute;
+    left: 9em;
+    margin-top:5px;
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 300;
+line-height: 24px;
+
+
+color: #C7C7C7;
+}
+
+
+
+.statistics-transaction__loan img{
+    position: inherit;
+    background: linear-gradient(180deg, #ED654C 0%, #D05842 100%);
+
+box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+border-radius: 19.0044px;
+}
+
+.statistics-transaction_photo h1{
+    position: relative;
+    margin: 6.5em 0 0 1em;
+    font-family: 'Suprema';
+font-style: normal;
+font-weight: 600;
+font-size: 20.1118px;
+line-height: 25px;
+
+color: #FFFFFF;
+}
+
+.statistics-transaction_photo{
+    position: absolute;
+
+}
+
+
+.statistics-transaction__transaction input{
+    background: #FFFFFF;
+    height: 30.52px;
+    margin-left: 1em;
+    padding-left: 1em;
+    margin-right: 1em;
+   
+
+border: 1px solid #197BBD;
+border-radius: 8px;
+}
